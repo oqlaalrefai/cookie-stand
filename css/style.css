@@ -4,4 +4,42 @@ table, th, td {
   table {
     width: 100%;
   }
-  
+  a{text-decoration: none;}
+  li{
+
+    padding: 20px;
+    display: inline;
+    margin: 20px;
+  }
+  header{
+    background-color: darkblue;
+    height: 30px;
+    color: honeydew;
+  }
+  footer{
+    background-color: black;
+    color: whitesmoke;
+  }
+  h2{
+    font-weight: 800;
+    text-align: center;
+    color: gold;
+  }
+  iframe{
+    width: 500px;
+    height: 500px;
+  }
+  article{
+    width: 70%;
+    padding: 30px;
+    display: block;
+  }
+  article1,article2{
+    height: 100%;
+    display: flex;
+    margin: auto;
+    width: 90%;
+    border: 3px transparent;
+    padding: 20px;
+    
+  }
