@@ -1,56 +1,79 @@
-table, th, td {
-    border: 1px solid black;
-  }
-  table {
-    width: 100%;
-  }
-  a{text-decoration: none;}
-  li{
+form{
+  background-color: green;
+}
+table{
+  background-color: gold;
+  border :solid 2px black;
+  font-family: 'Lobster';
+}
+tr{
+border :solid 2px black;
+}
+td{
+border :solid 2px black;
+}
+th{
+border :solid 2px black;
+}
+h1{
+  background-color: blue;
+  text-align: center;
+  font-size: x-large;
+  font-family: Georgia, Times;
+}
+nav{
+  text-align: center;
+  display: block;
+  color: red;
 
-    padding: 20px;
-    display: inline;
-    margin: 20px;
-  }
-  #form{
-    color: black;
-    font-weight: 800;
-    text-align: left;
-  }
-  form{
-    box-sizing: border-box;
-  }
-  header{
-    background-color: darkblue;
-    height: 30px;
-    color: honeydew;
-  }
-  footer{
-    background-color: black;
-    color: whitesmoke;
-  }
-  h2{
-    font-weight: 800;
-    text-align: center;
-    color: gold;
-  }
-  iframe{
-    width: 500px;
-    height: 500px;
-  }
-  article{
-    width: 70%;
-    padding: 30px;
-    display: block;
-  }
-  article1,article2{
-    height: 100%;
-    display: flex;
-    margin: auto;
-    width: 90%;
-    border: 3px transparent;
-    padding: 20px;
-    
-  }
-  form {
-box-sizing: border-box;
+}
+iframe{
+  width: 400px;
+  height: 400px;
+}
+#h2index{
+  color: blueviolet;
+  background-color: salmon;
+  font-family: Arial, Helvetica, sans-serif;
+}
+form{
+  width: 1000px;
+  border :solid 2px black;
+}
+footer{
+
+  font-family: 'Lobster';
+}
+#h{
+  font-size: xx-large;
+  background-color: cyan;
+  color: crimson;
+}
+a{
+  text-decoration: none;
+}
+li{
+  width: 200px;
+  height: 25px;
+  background-color: yellowgreen;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  padding: 200 px;
+  font-size: x-large;
+  display: inline-block;
+}
+article{
+  display: block;
+}
+article1{
+  display: flex;
+}
+article2{
+  
+  display: flex;
+}
+#f{
+  background-color: gold;
+  font-family: fantasy;
+  color: white;
 }
